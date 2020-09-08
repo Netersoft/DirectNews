@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listArray">
+        <item>@string/french_str</item>
+        <item>@string/english_str</item>
+        <item>@string/deutch_str</item>
+        <item>@string/spanish_str</item>
+        <item>@string/portuguese_str</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>fr</item>
+        <item>us</item>
+        <item>de</item>
+        <item>es</item>
+        <item>pt</item>
+    </string-array>
+
+    <string-array name="frequencyArray">
+        <item>@string/daily_str</item>
+        <item>@string/twoDays_str</item>
+        <item>@string/weekly_str</item>
+    </string-array>
+
+    <string-array name="frequencyValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- AboutActivity String Array-->
+
+    <string-array name="array1">
+        <item>@string/version_str</item>
+        <item>1.0.2</item>
+    </string-array>
+
+    <string-array name="array2">
+        <item>@string/legal_notice_str</item>
+        <item>@string/privacy_police_str</item>
+    </string-array>
+
+    <string-array name="array3">
+        <item>@string/contact_str</item>
+        <item>neterustudio@gmail.com</item>
+    </string-array>
+
+    <string-array name="array4">
+        <item>@string/credits_str</item>
+        <item>@string/credits_details_str</item>
+    </string-array>
+
+    <array name="array0">
+        <item>@array/array1</item>
+        <item>@array/array2</item>
+        <item>@array/array3</item>
+        <item>@array/array4</item>
+    </array>
+
+</resources>

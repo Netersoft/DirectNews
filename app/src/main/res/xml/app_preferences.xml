@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="@string/number_of_news_str"
+        android:key="nb"
+        android:inputType="number"
+        android:defaultValue="42"
+        android:hint="Max = 100"
+        android:summary="@string/number_of_news_summary_str"/>
+
+    <CheckBoxPreference
+        android:title="@string/notifications_str"
+        android:defaultValue="true"
+        android:summary="@string/notifications_summary_str"
+        android:key="notif" />
+
+    <ListPreference
+        android:title="@string/notifFrequency_str"
+        android:summary="@string/notifFrequency_summary_str"
+        android:dependency="notif"
+        android:key="notifFrequency"
+        android:defaultValue="0"
+        android:entries="@array/frequencyArray"
+        android:entryValues="@array/frequencyValues"/>
+
+    <EditTextPreference
+        android:title="@string/notifNb_str"
+        android:dependency="notif"
+        android:key="notifNb"
+        android:inputType="number"
+        android:defaultValue="3"
+        android:hint="Max = 10"
+        android:summary="@string/notifNb_summary_str"/>
+
+    <ListPreference
+        android:title="@string/language_str"
+        android:summary="@string/language_summary_str"
+        android:key="lang"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"/>
+
+</androidx.preference.PreferenceScreen>

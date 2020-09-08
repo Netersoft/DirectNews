@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_a">
+
+        <item
+            android:id="@+id/nav_une"
+            android:icon="@mipmap/ic_library_books_black_24dp"
+            android:title="@string/headline_str" />
+
+        <item
+            android:title="@string/region_str">
+            <menu>
+                <item
+                    android:id="@+id/nav_world"
+                    android:icon="@mipmap/ic_public_black_24dp"
+                    android:title="@string/world_str" />
+                <item
+                    android:id="@+id/nav_africa"
+                    android:icon="@mipmap/ic_public_black_24dp"
+                    android:title="@string/africa_str" />
+                <item
+                    android:id="@+id/nav_europa"
+                    android:icon="@mipmap/ic_public_black_24dp"
+                    android:title="@string/europa_str" />
+                <item
+                    android:id="@+id/nav_america"
+                    android:icon="@mipmap/ic_public_black_24dp"
+                    android:title="@string/america_str" />
+                <item
+                    android:id="@+id/nav_asia"
+                    android:icon="@mipmap/ic_public_black_24dp"
+                    android:title="@string/asia_str" />
+            </menu>
+        </item>
+
+        <item
+            android:title="@string/rubrik_str">
+            <menu>
+                <item
+                    android:id="@+id/nav_economie"
+                    android:icon="@mipmap/ic_euro_symbol_black_24dp"
+                    android:title="@string/economy_str" />
+                <item
+                    android:id="@+id/nav_sciences"
+                    android:icon="@mipmap/ic_lightbulb_outline_black_24dp"
+                    android:title="@string/science_str" />
+                <item
+                    android:id="@+id/nav_health"
+                    android:icon="@mipmap/ic_healing_black_24dp"
+                    android:title="@string/health_str" />
+                <item
+                    android:id="@+id/nav_techno"
+                    android:icon="@mipmap/ic_memory_black_24dp"
+                    android:title="@string/technology_str" />
+                <item
+                    android:id="@+id/nav_culture"
+                    android:icon="@mipmap/ic_bubble_chart_black_24dp"
+                    android:title="@string/culture_str" />
+                <item
+                    android:id="@+id/nav_sport"
+                    android:icon="@mipmap/ic_directions_bike_black_24dp"
+                    android:title="@string/sport_str" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/group_b">
+        <item
+            android:id="@+id/nav_search_articles"
+            android:icon="@mipmap/ic_search_black_24dp"
+            android:title="@string/articles_search_str" />
+
+        <item
+            android:id="@+id/nav_later"
+            android:icon="@mipmap/ic_turned_in_black_24dp"
+            android:title="@string/read_later_str"/>
+
+    </group>
+
+    <group android:id="@+id/group_c">
+        <item android:title="@string/others_str">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@mipmap/ic_settings_black_24dp"
+                    android:title="@string/settings_title_str" />
+                <item
+                    android:id="@+id/nav_evaluate"
+                    android:icon="@mipmap/ic_favorite_border_black_24dp"
+                    android:title="@string/evaluate_str" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@mipmap/ic_share_black_24dp"
+                    android:title="@string/share_str" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "625398592663",
+    "firebase_url": "https://hermod-36629.firebaseio.com",
+    "project_id": "hermod-36629",
+    "storage_bucket": "hermod-36629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625398592663:android:53702163dbaf88a9",
+        "android_client_info": {
+          "package_name": "com.neteru.hermod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625398592663-ktb0qmhcqpvg80i9rg5rqbfpqijthlfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neteru.hermod",
+            "certificate_hash": "5c18acbbe13aa5b7a679de8506721a9ae70d649d"
+          }
+        },
+        {
+          "client_id": "625398592663-69b7rc2t4ncb98vfdbulf4tqoq5n3b55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neteru.hermod",
+            "certificate_hash": "93f20a50c2a5bab6b86dcbdaa79b3af2bdd27f16"
+          }
+        },
+        {
+          "client_id": "625398592663-splg09nk26dmuj18dprn8tavl0nlk702.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neteru.hermod",
+            "certificate_hash": "b6905bde663865141dbcd4dd019bd0c1e7f6c2d0"
+          }
+        },
+        {
+          "client_id": "625398592663-q754pvofumfnm6eroulj2b09iu65hvf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDipDhWuG61lyiTMPZ-A9BfYW1-f3jcH78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625398592663-q754pvofumfnm6eroulj2b09iu65hvf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
